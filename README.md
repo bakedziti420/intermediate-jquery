@@ -33,7 +33,7 @@ competencies: Front-end intro
 - **Describe** jQuery and it's use in manipulating the DOM
 - **Write** simple jQuery to manipulate the DOM
 
-<!--10:15 15 minutes -->
+<!--10:15 20 minutes -->
 
 ## Page Setup - Codealong
 
@@ -64,7 +64,7 @@ Welcome back to jQuery!  Since we've had a proper introduction, let's start buil
 
 #### Starting HTML
 
-<!--Demo this without copy-paste, and ask them to do the same -->
+<!--Demo this without copy-paste, and ask them to do the same as you go -->
 
 We are going to display a list of homes for sale in Longmont. Here's some HTML to get us started - replace the existing `<body>` tags with the following:
 ```html
@@ -133,7 +133,7 @@ We're all set to get started. In Sublime, right-click anywhere on `index.html` i
 
 Your page should load and the alert should appear.
 
-<!--10:30 5 minutes -->
+<!--10:35 5 minutes -->
 
 <!--Half-mast -->
 
@@ -156,7 +156,7 @@ That's better!
 
 Your turn! After you change the class to `btn-success`, add a class named "text-center" to the `<h1>` tag.
 
-<!--10:35 10 minutes -->
+<!--10:40 10 minutes -->
 
 ## Creating and Modifying Elements - Codealong
 
@@ -209,15 +209,17 @@ Nice!
 
 We also can use the `removeAttr()` method to remove an attribute.
 
+<!--Got to here ~11:30 -->
+
 <!--Timer for 2 minutes -->
 
-<!--Got to here ~11:30 -->
+<!--10:50 5 minutes -->
 
 ## Find the value of an attribute - Independent Practice
 
 How do you think we would retrieve the value of an attribute?  Pair up, get on the web and find out, and then, `console.log` the value of the link's `href` attribute.
 
-<!--10:45 10 minutes -->
+<!--10:55 10 minutes -->
 
 ## Adding Event Listeners - Codealong
 
@@ -254,7 +256,7 @@ In all cases, note that if you don't need to use the _event_ argument, you don't
 
 In order to stay on the topic of event listeners, we'll write the code to insert a home a bit later.
 
-<!--10:55 5 minutes -->
+<!--11:05 5 minutes -->
 
 #### Event Delegation - Intro
 
@@ -282,7 +284,7 @@ function removeHome() {
 
 <!-- Note: Discuss the differences about the way we used the `on()` method that made it perform event delegation. -->
 
-<!--11:00 10 minutes -->
+<!--11:10 10 minutes -->
 
 ## More DOM practice - Codealong
 
@@ -329,7 +331,7 @@ cells.eq(4).css('color', 'green');
 
 Note that the `children()` method can be passed in an additional selector string for further filtering.
 
-<!--11:10 15 minutes -->
+<!--11:20 15 minutes -->
 
 ## Add New Homes - Independent Practice
 
@@ -353,7 +355,7 @@ First, create an array of new home data in your script:
 - Add a button that, when clicked, restores all previously removed homes and appends them to the bottom of the table.
   - Hint: Take a look at the "Removing Elements" section in [these docs](http://learn.jquery.com/using-jquery-core/manipulating-elements/).
 
-<!--11:25 5 minutes -->
+<!--11:35 5 minutes -->
 
 ## Conclusion
 
