@@ -33,7 +33,7 @@ competencies: Front-end intro
 - **Describe** jQuery and it's use in manipulating the DOM
 - **Write** simple jQuery to manipulate the DOM
 
-<!--10:15 20 minutes -->
+<!--10:15 10 minutes -->
 
 ## Page Setup - Codealong
 
@@ -61,6 +61,8 @@ Welcome back to jQuery!  Since we've had a proper introduction, let's start buil
 ```
 
 <!--Make sure devs stop here -->
+
+<!--10:25 10 minutes -->
 
 #### Starting HTML
 
