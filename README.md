@@ -33,6 +33,7 @@ competencies: Front-end intro
 - **Describe** jQuery and it's use in manipulating the DOM
 - **Write** simple jQuery to manipulate the DOM
 
+<!--Actually 10:59 -->
 <!--10:15 10 minutes -->
 
 ## Page Setup - Codealong
@@ -62,6 +63,7 @@ Welcome back to jQuery!  Since we've had a proper introduction, let's start buil
 
 <!--Make sure devs stop here -->
 
+<!--Actually 11:08 -->
 <!--10:25 10 minutes -->
 
 #### Starting HTML
@@ -136,6 +138,7 @@ We're all set to get started. In Sublime, right-click anywhere on `index.html` i
 Your page should load and the alert should appear.
 
 <!--No "your turn" when starting late -->
+<!--Actually 11:15 -->
 <!--10:35 5 minutes -->
 
 <!--Half-mast -->
@@ -159,6 +162,7 @@ That's better!
 
 Your turn! After you change the class to `btn-success`, add a class named "text-center" to the `<h1>` tag.
 
+<!--11:20 -->
 <!--10:40 10 minutes -->
 
 ## Creating and Modifying Elements - Codealong
@@ -216,12 +220,14 @@ We also can use the `removeAttr()` method to remove an attribute.
 
 <!--Timer for 2 minutes -->
 
+<!--11:28 -->
 <!--10:50 5 minutes -->
 
 ## Find the value of an attribute - Independent Practice
 
 How do you think we would retrieve the value of an attribute?  Pair up, get on the web and find out, and then, `console.log` the value of the link's `href` attribute.
 
+<!--Actually 11:35 -->
 <!--10:55 10 minutes -->
 
 ## Adding Event Listeners - Codealong
@@ -287,6 +293,7 @@ function removeHome() {
 
 <!-- Note: Discuss the differences about the way we used the `on()` method that made it perform event delegation. -->
 
+<!--Actually 11:46 -->
 <!--Cut this with late start -->
 <!--11:10 10 minutes -->
 
@@ -365,6 +372,8 @@ First, create an array of new home data in your script:
 
 - Describe how the event delegation syntax differs from the standard event handler syntax.
 - Explain how to ensure your jQuery doesn't run until after the DOM loads in the browser.
+
+<!--Actually 11:53, with way less student independence than I had hoped -->
 
 ## Resources:
 
