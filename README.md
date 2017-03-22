@@ -14,6 +14,7 @@ competencies: Front-end intro
 
 <!--Make a point throughout this class to show the code that devs need on the projector, and remind them not to copy-paste from sources if they can avoid it. -->
 
+<!--Actually 10:55 -->
 <!--10:10 5 minutes-->
 
 # Intermediate jQuery
@@ -24,7 +25,6 @@ competencies: Front-end intro
 - **Apply** jQuery to manipulate, add, and remove DOM elements
 - **Add** event listeners for standard events - click, mouse, keydown - and custom events and respond with an action
 - **Capture** data from specific events and iterate on or manipulate the data
-- **Work** with timer events within the context of the browser
 
 ### Preparation
 *Before this lesson, students should already be able to:*
@@ -135,6 +135,7 @@ We're all set to get started. In Sublime, right-click anywhere on `index.html` i
 
 Your page should load and the alert should appear.
 
+<!--No "your turn" when starting late -->
 <!--10:35 5 minutes -->
 
 <!--Half-mast -->
@@ -286,6 +287,7 @@ function removeHome() {
 
 <!-- Note: Discuss the differences about the way we used the `on()` method that made it perform event delegation. -->
 
+<!--Cut this with late start -->
 <!--11:10 10 minutes -->
 
 ## More DOM practice - Codealong
