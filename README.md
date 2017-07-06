@@ -377,7 +377,7 @@ First, create an array of new home data in your script:
 - Add a button that, when clicked, restores all previously removed homes and appends them to the bottom of the table.
   - Hint: Take a look at the "Removing Elements" section in [these docs](http://learn.jquery.com/using-jquery-core/manipulating-elements/).
 
-<!--11:52 WDI4 -->
+<!--11:52 WDI4, 11:58 after conclusion and Qs -->
 <!--11:35 5 minutes -->
 
 ## Conclusion
