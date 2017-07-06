@@ -15,6 +15,7 @@ competencies: Front-end intro
 <!--Make a point throughout this class to show the code that devs need on the projector, and remind them not to copy-paste from sources if they can avoid it. -->
 
 <!--Actually 10:55 -->
+<!--10:25 WDI4 -->
 <!--10:10 5 minutes-->
 
 # Intermediate jQuery
@@ -64,6 +65,7 @@ Welcome back to jQuery!  Since we've had a proper introduction, let's start buil
 <!--Make sure devs stop here -->
 
 <!--Actually 11:08 -->
+<!--10:40 WDI4 -->
 <!--10:25 10 minutes -->
 
 #### Starting HTML
@@ -112,6 +114,8 @@ We are going to display a list of homes for sale in Longmont. Here's some HTML t
 </body>
 ```
 
+<!--10:55 WDI4 -->
+
 #### Ensuring that the DOM is Ready
 
 Since our script is in the `<head>`, it will be parsed before the DOM. If our code references any DOM elements, and since this is a jQuery lesson it most certainly will, we need to delay our code's execution until the DOM is built by the browser:
@@ -139,6 +143,7 @@ Your page should load and the alert should appear.
 
 <!--No "your turn" when starting late -->
 <!--Actually 11:15 -->
+<!--11:01 WDI4 -->
 <!--10:35 5 minutes -->
 
 <!--Half-mast -->
@@ -163,6 +168,7 @@ That's better!
 Your turn! After you change the class to `btn-success`, add a class named "text-center" to the `<h1>` tag.
 
 <!--11:20 -->
+<!--WDI4 11:07 -->
 <!--10:40 10 minutes -->
 
 ## Creating and Modifying Elements - Codealong
@@ -221,6 +227,7 @@ We also can use the `removeAttr()` method to remove an attribute.
 <!--Timer for 2 minutes -->
 
 <!--11:28 -->
+<!--11:12 WDI4 -->
 <!--10:50 5 minutes -->
 
 ## Find the value of an attribute - Independent Practice
@@ -228,6 +235,7 @@ We also can use the `removeAttr()` method to remove an attribute.
 How do you think we would retrieve the value of an attribute?  Pair up, get on the web and find out, and then, `console.log` the value of the link's `href` attribute.
 
 <!--Actually 11:35 -->
+<!--11:16 WDI4 -->
 <!--10:55 10 minutes -->
 
 ## Adding Event Listeners - Codealong
@@ -250,6 +258,8 @@ $('#addHome').click(function(evt){
 Refresh the page and open the console to see what the `evt` argument (jQuery's _event_ object) passed in by jQuery looks like and what `this` is set to.
 
 jQuery's _event_ object can come in handy, especially when listening to mouse events. It is this object for example that would make writing a drawing or paint application possible.
+
+<!--WDI4 
 
 Here is an alternative syntax. This syntax is preferred because the syntax above actually calls this next version internally.
 
@@ -284,10 +294,10 @@ Any ancestor element would work, but as they say, closer is usually better.
 Let's put the handler on our `<tbody>` tag.  Also, to see how it's done, we will use a named function instead of an anonymous one:
 
 ```js
-$('#homes tbody').on('click', 'tr', removeHome);
+$('#homes tbody').on('click', 'tr button', removeHome);
 
 function removeHome() {
-    console.log(this);
+    console.log($(this).closest('tr'));
 }
 ```
 
@@ -305,7 +315,7 @@ If our users click on the _Remove_ button, we obviously want to remove that home
 
 ```js
 function removeHome() {
-	$(this).remove();
+    $(this).closest('tr').remove(); 
 }
 ```
 
@@ -317,8 +327,8 @@ Currently, the sudden disappearance of the home's row is a little harsh. jQuery 
 <!-- Leave this up, so people aren't tempted to copy-and-paste
 ```js
 function removeHome() {
-	$(this).fadeOut(1000, function() {
-		$(this).remove();
+	$(this).closest('tr').fadeOut(1000, function() {
+		$(this).closest('tr').remove();
 	});
 }
 ```
@@ -342,6 +352,7 @@ cells.eq(4).css('color', 'green');
 
 Note that the `children()` method can be passed in an additional selector string for further filtering.
 
+<!--WDI4 11:32 when explaining to devs -->
 <!--11:20 15 minutes -->
 
 ## Add New Homes - Independent Practice
@@ -352,9 +363,9 @@ First, create an array of new home data in your script:
 
 - Create a blank array called `newHomes`
 - Push a house object into it with
-  - `address` propery of "123 Sesame Street", `sf` property of "1,234", `bedrooms` property of 3, `baths` property of 2, `price` property of "$280,000"
+  - `address` property of "123 Sesame Street", `sf` property of "1,234", `bedrooms` property of 3, `baths` property of 2, `price` property of "$280,000"
 - Push another house object into it with
-  - `address` propery of "345 Plaza Sesamo", `sf` property of "4,321", `bedrooms` property of 5, `baths` property of 3.5, `price` property of "$680,000"
+  - `address` property of "345 Plaza Sesamo", `sf` property of "4,321", `bedrooms` property of 5, `baths` property of 3.5, `price` property of "$680,000"
 
 - Use the home data to "fill" in the cells of newly created rows.
 - It always helps to pseudocode (write the major coding steps in English).
@@ -366,6 +377,7 @@ First, create an array of new home data in your script:
 - Add a button that, when clicked, restores all previously removed homes and appends them to the bottom of the table.
   - Hint: Take a look at the "Removing Elements" section in [these docs](http://learn.jquery.com/using-jquery-core/manipulating-elements/).
 
+<!--11:52 WDI4 -->
 <!--11:35 5 minutes -->
 
 ## Conclusion
