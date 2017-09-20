@@ -14,6 +14,7 @@ competencies: Front-end intro
 
 <!--Make a point throughout this class to show the code that devs need on the projector, and remind them not to copy-paste from sources if they can avoid it. -->
 
+<!--WDI5 10:22 -->
 <!--Actually 10:55 -->
 <!--10:25 WDI4 -->
 <!--10:10 5 minutes-->
@@ -44,7 +45,7 @@ competencies: Front-end intro
 Welcome back to jQuery!  Since we've had a proper introduction, let's start building our own `index.html` page and `app.js` file. In Terminal:
 
 - Navigate to your working directory where you keep your code
-- Create a directory called `first_jquery`
+- Create a directory called `second_jquery`
 - Navigate inside that directory
 - `touch` your HTML file
 - Make a `js` directory
