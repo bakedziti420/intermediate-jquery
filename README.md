@@ -173,7 +173,7 @@ That's better!
 
 Your turn! After you change the class to `btn-success`, add a class named "text-center" to the `<h1>` tag.
 
-<!--WDI5 10:54 -->
+<!--WDI5 10:56 -->
 <!--11:20 -->
 <!--WDI4 11:07 -->
 <!--10:40 10 minutes -->
@@ -209,6 +209,8 @@ Other methods available include:
 
 We'll practice adding elements in a bit.
 
+<!--WDI5 11:02 -->
+
 #### Check it Out
 
 Refresh your page and there's the link!
@@ -233,6 +235,7 @@ We also can use the `removeAttr()` method to remove an attribute.
 
 <!--Timer for 2 minutes -->
 
+<!--WDI5 11:07-->
 <!--11:28 -->
 <!--11:12 WDI4 -->
 <!--10:50 5 minutes -->
@@ -241,6 +244,7 @@ We also can use the `removeAttr()` method to remove an attribute.
 
 How do you think we would retrieve the value of an attribute?  Pair up, get on the web and find out, and then, `console.log` the value of the link's `href` attribute.
 
+<!--WDI5 11:10 -->
 <!--Actually 11:35 -->
 <!--11:16 WDI4 -->
 <!--10:55 10 minutes -->
@@ -265,8 +269,6 @@ $('#addHome').click(function(evt){
 Refresh the page and open the console to see what the `evt` argument (jQuery's _event_ object) passed in by jQuery looks like and what `this` is set to.
 
 jQuery's _event_ object can come in handy, especially when listening to mouse events. It is this object for example that would make writing a drawing or paint application possible.
-
-<!--WDI4 
 
 Here is an alternative syntax. This syntax is preferred because the syntax above actually calls this next version internally.
 
@@ -308,6 +310,7 @@ function removeHome() {
 }
 ```
 
+<!--WDI5 11:24 -->
 <!-- Note: Discuss the differences about the way we used the `on()` method that made it perform event delegation. -->
 
 <!--Actually 11:46 -->
@@ -343,6 +346,8 @@ function removeHome() {
 
 Much better!
 
+<!--WDI5 11:30 -->
+
 ## Traversing the DOM - Demo
 
 jQuery has [several methods to traverse the DOM](https://api.jquery.com/category/traversing/). However, to complete the next exercise, we need to know about the `children()` method.
@@ -359,6 +364,7 @@ cells.eq(4).css('color', 'green');
 
 Note that the `children()` method can be passed in an additional selector string for further filtering.
 
+<!--WDI5 11:35 turning over to devs, coming back 11:50 -->
 <!--WDI4 11:32 when explaining to devs -->
 <!--11:20 15 minutes -->
 
@@ -392,6 +398,7 @@ First, create an array of new home data in your script:
 - Describe how the event delegation syntax differs from the standard event handler syntax.
 - Explain how to ensure your jQuery doesn't run until after the DOM loads in the browser.
 
+<!--WDI5 11:53 -->
 <!--Actually 11:53, with way less student independence than I had hoped -->
 
 ## Resources:
