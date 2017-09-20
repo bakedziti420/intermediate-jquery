@@ -52,6 +52,8 @@ Welcome back to jQuery!  Since we've had a proper introduction, let's start buil
 - `touch` your JS file, and make sure it is inside your `js` directory
 - Open the current directory with Sublime
 
+<!--WDI5 10:28 -->
+
 #### Boilerplate
 
 - Create your HTML boilerplate. 
@@ -65,6 +67,7 @@ Welcome back to jQuery!  Since we've had a proper introduction, let's start buil
 
 <!--Make sure devs stop here -->
 
+<!--WDI5 10:32 -->
 <!--Actually 11:08 -->
 <!--10:40 WDI4 -->
 <!--10:25 10 minutes -->
@@ -115,6 +118,7 @@ We are going to display a list of homes for sale in Longmont. Here's some HTML t
 </body>
 ```
 
+<!--WDI5 10:49 -->
 <!--10:55 WDI4 -->
 
 #### Ensuring that the DOM is Ready
@@ -145,6 +149,7 @@ Your page should load and the alert should appear.
 <!--No "your turn" when starting late -->
 <!--Actually 11:15 -->
 <!--11:01 WDI4 -->
+<!--WDI5 10:51 -->
 <!--10:35 5 minutes -->
 
 <!--Half-mast -->
@@ -168,6 +173,7 @@ That's better!
 
 Your turn! After you change the class to `btn-success`, add a class named "text-center" to the `<h1>` tag.
 
+<!--WDI5 10:54 -->
 <!--11:20 -->
 <!--WDI4 11:07 -->
 <!--10:40 10 minutes -->
@@ -187,7 +193,7 @@ var $newLink = $( '<br><br><a id="zillowLink" href="http://www.zillow.com">Visit
 The `newLink` variable now holds our newly created element, however, we still need to add it to the page. One of the ways is to use the `appendTo()` method:
 
 ```js
-newLink.appendTo('body');
+$newLink.appendTo('body');
 ```
 `appendTo()` will insert the new elements at the end, but still inside of the specified element.
 
